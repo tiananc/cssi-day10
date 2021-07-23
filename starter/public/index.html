@@ -17,7 +17,13 @@
   </head>
   <body>
     <h1 class="title hero has-text-centered is-primary">My Playlists</h1>
-    <button>Add Playlist</button>
+    <label>Playlist Title:</label>
+    <input type = "text" id = "playlistTitle">
+    <br>
+    <label>Songs:</label>
+    <textarea id="songs" cols="40" rows="5"></textarea>
+    <br>
+    <button id = "addPlaylist">Add Playlist</button>
     <details open id="playlists">
         <summary>View Playlists</summary>
         <details open>
